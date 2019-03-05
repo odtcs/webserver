@@ -1,3 +1,9 @@
+docker container stop odtcs-screen
+docker container rm odtcs-screen
+
+docker container stop odtcs-workshop-hack
+docker container rm odtcs-workshop-hack
+
 
 ######## SCREEN SOFTWARE ########
 rm -r ./screen
